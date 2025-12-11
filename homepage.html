@@ -3,13 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/output.css">
-    <link rel="icon" href="./src/image/logo 2.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/output.css" />
+    <link rel="icon" href="./src/image/logo 2.png" type="image/x-icon" />
     <link
       href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>AVATR Global | Homepage</title>
   </head>
   <body>
@@ -100,7 +109,7 @@
                       <a
                         href="#"
                         class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                        >
+                      >
                         <i class="fa-solid fa-car-rear"></i>
                         AVATR 06</a
                       >
@@ -109,7 +118,7 @@
                       <a
                         href="#"
                         class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                        >
+                      >
                         <i class="fa-solid fa-car-rear"></i>
                         AVATR 07</a
                       >
@@ -118,7 +127,7 @@
                       <a
                         href="#"
                         class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                        >
+                      >
                         <i class="fa-solid fa-car-rear"></i>
                         AVATR 11</a
                       >
@@ -127,7 +136,7 @@
                       <a
                         href="#"
                         class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                        >
+                      >
                         <i class="fa-solid fa-car-rear"></i>
                         AVATR 12</a
                       >
@@ -136,7 +145,7 @@
                       <a
                         href="#"
                         class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                        >
+                      >
                         <i class="fa-solid fa-car-rear"></i>
                         AVATR 011</a
                       >
@@ -145,7 +154,7 @@
                       <a
                         href="#"
                         class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                        >
+                      >
                         <i class="fa-solid fa-car-rear"></i>
                         AVATR 012</a
                       >
@@ -189,8 +198,28 @@
                 <!-- Dropdown menu -->
                 <div
                   id="dropdownNavbar1"
-                  class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 dark:divide-gray-600"
+                  class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-[250px] dark:bg-gray-700 dark:divide-gray-600 justify-center"
                 >
+                  <div
+                    class="w-full flex flex-col justify-content-center align-content-center"
+                  >
+                    <div class="flex justify-center">
+                      <div class="pt-3">
+                        <img
+                          src="./src/image/profile.jpg"
+                          style="
+                            height: 100px;
+                            width: 100px;
+                            border-radius: 100%;
+                          "
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="flex justify-center">
+                      <div class="pt-3"><p>LENG Chanreaksmey</p></div>
+                    </div>
+                  </div>
                   <ul
                     class="py-2 text-sm text-gray-700 dark:text-gray-400"
                     aria-labelledby="dropdownLargeButton"
@@ -200,7 +229,7 @@
                         href="#"
                         onclick="profile()"
                         class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                        >
+                      >
                         <i class="fa-regular fa-user"></i>
                         User Profile</a
                       >
@@ -209,9 +238,27 @@
                       <a
                         href="#"
                         class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                        >
+                      >
                         <i class="fa-solid fa-earth-europe"></i>
                         Language : En</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                      >
+                        <i class="fa-solid fa-gear"></i>
+                        Setting & Privacy</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                      >
+                        <i class="fa-regular fa-circle-question"></i>
+                        Help Center</a
                       >
                     </li>
                   </ul>
@@ -220,7 +267,7 @@
                       href="#"
                       onclick="logout()"
                       class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
-                      >
+                    >
                       <i class="fa-solid fa-arrow-right-from-bracket"></i>
                       Log out</a
                     >
@@ -233,7 +280,7 @@
       </nav>
     </header>
     <main class="h-screen pt-[85px] px-40 bg-[#F5F7FA]">
-      <h1>Home Page</h1>
+      <p>Homepage</p>
     </main>
     <!-- flowbite -->
     <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>

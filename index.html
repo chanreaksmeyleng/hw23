@@ -8,8 +8,14 @@
       href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./script.js">
-    <link rel="icon" href="./src/image/logo 2.png" type="image/x-icon">
+    <link rel="stylesheet" href="./script.js" />
+    <link rel="icon" href="./src/image/logo 2.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>AVATR Global</title>
   </head>
   <body>
@@ -23,9 +29,7 @@
           </div>
           <div class="flex flex-col justify-center">
             <div class="px-[35px] pb-3">
-              <p class="text-[21px] text-gray-700">
-                Enter credentials
-              </p>
+              <p class="text-[21px] text-gray-700">Enter credentials</p>
             </div>
             <div class="px-[35px] pb-3">
               <input
@@ -43,19 +47,13 @@
                 class="w-full rounded-lg border-gray-300"
               />
             </div>
-            <div class="flex flex-row justify-between align-center px-[35px] pb-3">
-              <button
-                class="bg-[#027ACC] h-[35px] w-[125px] rounded-lg text-white hover:bg-[#3399CC] cursor-pointer transmition duration-300"
-                onclick="login()"
-                type="button"
-              >
-                Login
-              </button>
-              <a
-                href="#"
-                class="lg:text-[12px] md:text-[12px] sm:text-[12px] text-[12px] hover:text-[#027ACC] pt-[5px] transmition duration-300"
-                >Forgot your credentials?</a
-              >
+            <div class="flex flex-row justify-between items-center px-[35px]">
+              <div>
+                <button class="bg-[#027ACC] h-[35px] w-[125px] rounded-lg text-white hover:bg-[#3399CC] cursor-pointer transmition duration-300" onclick="login()" type="button">Login</button>
+              </div>
+              <div>
+                <a href="#" class="lg:text-[12px] md:text-[12px] sm:text-[12px] text-[12px] hover:text-[#027ACC] pt-[5px] transmition duration-300">Forgot your credentials?</a>
+              </div>
             </div>
             <div class="px-[35px]">
               <p class="text-red-500" id="wrongPassword"></p>
@@ -63,8 +61,8 @@
           </div>
           <div class="justify-end px-[35px]">
             <p class="text-[12px]">
-              Copyright © 2005-2025 AVATR Motor <br>
-              All rights reserved. <br>
+              Copyright © 2005-2025 AVATR Motor <br />
+              All rights reserved. <br />
               Phnom Penh City, Cambodia
             </p>
           </div>
@@ -72,6 +70,6 @@
       </form>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
-     <script src="./script.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
