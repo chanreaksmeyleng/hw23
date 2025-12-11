@@ -22,3 +22,11 @@ function login() {
 function logout(){
   window.open("./index.html", "_self");
 }
+
+const profile = () => {
+  window.open("./profile.html", "_target");
+}
+
+const homePage = () => {
+  window.open("./homepage.html", "_target");
+}
