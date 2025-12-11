@@ -34,9 +34,9 @@ function logout(){
 }
 
 const profile = () => {
-  window.open("./profile.html", "_target");
+  window.open("./profile.html", "_self");
 }
 
 const homePage = () => {
-  window.open("./homepage.html", "_target");
+  window.open("./homepage.html", "_self");
 }
