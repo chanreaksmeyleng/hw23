@@ -445,6 +445,9 @@
   .bg-white {
     background-color: var(--color-white);
   }
+  .bg-\[url\(\.\/background\.jpg\)\] {
+    background-image: url(./background.jpg);
+  }
   .bg-\[url\(\.\/src\/image\/background\.jpg\)\] {
     background-image: url(./src/image/background.jpg);
   }
@@ -615,6 +618,11 @@
       outline-style: none;
     }
   }
+  .sm\:text-\[12px\] {
+    @media (width >= 40rem) {
+      font-size: 12px;
+    }
+  }
   .md\:mt-0 {
     @media (width >= 48rem) {
       margin-top: calc(var(--spacing) * 0);
@@ -680,6 +688,11 @@
       padding: calc(var(--spacing) * 2);
     }
   }
+  .md\:text-\[12px\] {
+    @media (width >= 48rem) {
+      font-size: 12px;
+    }
+  }
   .md\:text-blue-700 {
     @media (width >= 48rem) {
       color: var(--color-blue-700);
@@ -701,6 +714,11 @@
           color: var(--color-blue-700);
         }
       }
+    }
+  }
+  .lg\:text-\[12px\] {
+    @media (width >= 64rem) {
+      font-size: 12px;
     }
   }
   .rtl\:space-x-reverse {
