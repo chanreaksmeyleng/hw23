@@ -8,6 +8,7 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-red-300: oklch(80.8% 0.114 19.571);
+    --color-red-400: oklch(70.4% 0.191 22.216);
     --color-red-500: oklch(63.7% 0.237 25.331);
     --color-amber-200: oklch(92.4% 0.12 95.746);
     --color-blue-500: oklch(62.3% 0.214 259.815);
@@ -301,6 +302,15 @@
   .w-44 {
     width: calc(var(--spacing) * 44);
   }
+  .w-\[25\] {
+    width: 25;
+  }
+  .w-\[25px\] {
+    width: 25px;
+  }
+  .w-\[50px\] {
+    width: 50px;
+  }
   .w-\[125px\] {
     width: 125px;
   }
@@ -343,6 +353,9 @@
   .items-center {
     align-items: center;
   }
+  .items-start {
+    align-items: flex-start;
+  }
   .justify-between {
     justify-content: space-between;
   }
@@ -351,6 +364,9 @@
   }
   .justify-end {
     justify-content: flex-end;
+  }
+  .justify-start {
+    justify-content: flex-start;
   }
   .gap-5 {
     gap: calc(var(--spacing) * 5);
@@ -388,6 +404,18 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .border-2 {
+    border-style: var(--tw-border-style);
+    border-width: 2px;
+  }
+  .border-r {
+    border-right-style: var(--tw-border-style);
+    border-right-width: 1px;
+  }
+  .border-r-2 {
+    border-right-style: var(--tw-border-style);
+    border-right-width: 2px;
+  }
   .border-gray-100 {
     border-color: var(--color-gray-100);
   }
@@ -396,6 +424,12 @@
   }
   .border-gray-300 {
     border-color: var(--color-gray-300);
+  }
+  .border-gray-500 {
+    border-color: var(--color-gray-500);
+  }
+  .border-red-500 {
+    border-color: var(--color-red-500);
   }
   .bg-\[\#027ACC\] {
     background-color: #027ACC;
@@ -411,6 +445,9 @@
   }
   .bg-red-300 {
     background-color: var(--color-red-300);
+  }
+  .bg-red-400 {
+    background-color: var(--color-red-400);
   }
   .bg-red-500 {
     background-color: var(--color-red-500);
@@ -475,8 +512,14 @@
   .pt-3 {
     padding-top: calc(var(--spacing) * 3);
   }
+  .pt-\[1\] {
+    padding-top: 1;
+  }
   .pt-\[5px\] {
     padding-top: 5px;
+  }
+  .pt-\[15px\] {
+    padding-top: 15px;
   }
   .pt-\[25px\] {
     padding-top: 25px;
@@ -492,6 +535,12 @@
   }
   .pb-3 {
     padding-bottom: calc(var(--spacing) * 3);
+  }
+  .pl-\[10px\] {
+    padding-left: 10px;
+  }
+  .pl-\[15px\] {
+    padding-left: 15px;
   }
   .pl-\[25px\] {
     padding-left: 25px;
@@ -543,6 +592,9 @@
   }
   .whitespace-nowrap {
     white-space: nowrap;
+  }
+  .text-\[1\] {
+    color: 1;
   }
   .text-gray-500 {
     color: var(--color-gray-500);
